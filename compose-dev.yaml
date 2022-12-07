@@ -3,7 +3,8 @@ services:
     entrypoint: python app.py
     image: docker/dev-environments-default:stable-1
     init: true
-    expose: "8888"
+    expose: 
+      - "8888"
     ports: 
       - "8080:8888"
     volumes:
