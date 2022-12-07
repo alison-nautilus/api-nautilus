@@ -1,7 +1,6 @@
 services:
   app:
-    working_dir: /
-    entrypoint: python app.py
+    entrypoint: python /app.py
     image: python:3
     init: true
     expose: 
