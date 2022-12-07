@@ -1,6 +1,6 @@
 services:
   app:
-    entrypoint: python app.py
+    entrypoint: python /app.py
     image: docker/dev-environments-default:stable-1
     init: true
     expose: 
