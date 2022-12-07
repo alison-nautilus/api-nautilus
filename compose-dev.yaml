@@ -2,7 +2,7 @@ services:
   app:
     working_dir: /
     entrypoint: python app.py
-    image: docker/python:3
+    image: python:3
     init: true
     expose: 
       - "8888"
